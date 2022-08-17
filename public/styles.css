@@ -1,0 +1,101 @@
+body {
+    background: linear-gradient(black, blue, rgb(1, 1, 47));
+    color: white;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    min-width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+
+.resume-div {
+    padding: 10px;
+}
+
+.resume-center {
+    display: flex;
+    justify-content: center;
+}
+
+.front-resume-text {
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+}
+
+.emoji-pic {
+    font-size: 2.5rem;
+}
+
+.resume-ptext-1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.resume-ptext-2 {
+    color: grey;
+}
+
+
+.bio-section {
+    width: 50%;
+    text-align: center;
+    padding: 20px 100px 20px 100px;
+}
+
+.education-section {
+    border-radius: 20px;
+    width: 40%;
+    padding: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    background-image: url(space.jpg);
+}
+
+.experience-section {
+    border-radius: 20px;
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    font-weight: 500;
+    background-image: url(space.jpg);
+}
+
+.interest-section {
+    border-radius: 20px;
+    width: 40%;
+    position: relative;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    font-weight: 600;
+    background-image: url(space.jpg);
+}
+
+.skills-section {
+    border-radius: 20px;
+    width: 40%;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    font-weight: 600;
+    position: relative;
+    background-image: url(space.jpg);
+}
